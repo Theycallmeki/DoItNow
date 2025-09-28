@@ -3,7 +3,7 @@
     <div class="container">
       <h1 class="title">
         <span class="title-icon">✨</span>
-        DO IT NOW
+        DO IT NOW.
       </h1>
       <nav class="nav">
         <router-link to="/tasks" class="link">📋 All Tasks</router-link>
