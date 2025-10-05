@@ -4,7 +4,7 @@
       <h2 class="title"><span class="title-icon">➕</span> Create Task</h2>
       <form @submit.prevent="addTask" class="form">
         <div class="input-group">
-          <input v-model="title" placeholder="What needs to be done?" required class="input"/>
+          <input v-model="title" placeholder="What needs to be done??" required class="input"/>
           <button type="submit" class="btn" :disabled="!title.trim()">
             <span class="btn-icon">✨</span> Add Task
           </button>
