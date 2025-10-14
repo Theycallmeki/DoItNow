@@ -2,7 +2,7 @@
   <div class="home">
     <div class="hero">
       <div class="hero-content">
-        <h1 class="title"> DO IT NOW</h1>
+        <h1 class="title"> DO IT NOW!</h1>
         <p class="subtitle">Manage your tasks efficiently and track your progress.</p>
         <div class="cta-buttons">
           <router-link to="/create" class="btn btn-primary">➕ Create Task</router-link>
