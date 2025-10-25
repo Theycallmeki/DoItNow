@@ -6,9 +6,9 @@
         DO IT NOW.
       </h1>
       <nav class="nav">
-        <router-link to="/tasks" class="link">📋 All Tasks</router-link>
-        <router-link to="/create" class="link">➕ Create Task</router-link>
-        <router-link to="/done" class="link">✅ Completed</router-link>
+        <router-link to="/tasks" class="link">All Tasks</router-link>
+        <router-link to="/create" class="link">Create Task</router-link>
+        <router-link to="/done" class="link">Completed</router-link>
       </nav>
     </div>
   </header>
