@@ -11,9 +11,9 @@
         </div>
       </div>
       <div class="features">
-        <div class="feature">🎯<h3>Stay Organized</h3></div>
-        <div class="feature">⚡<h3>Quick & Easy</h3></div>
-        <div class="feature">📊<h3>Track Progress</h3></div>
+        <div class="feature"><h3>Stay Organized</h3></div>
+        <div class="feature"><h3>Quick & Easy</h3></div>
+        <div class="feature"><h3>Track Progress</h3></div>
       </div>
     </div>
   </div>
