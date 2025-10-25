@@ -1,6 +1,6 @@
 <template>
   <div class="all-tasks">
-    <h2 class="title">📋 All Tasks</h2>
+    <h2 class="title">All Tasks</h2>
 
     <!-- Loading -->
     <div v-if="loading" class="center">
@@ -10,7 +10,7 @@
 
     <!-- Empty -->
     <div v-else-if="tasks.length === 0" class="center empty">
-      <p>📝 No tasks yet!</p>
+      <p>No tasks yet!</p>
       <small>Create your first task</small>
     </div>
 
@@ -28,8 +28,8 @@
             {{ task.completed ? '↩️ Undo' : '✅ Done' }}
           </button>
           <button v-if="!task.editing" @click="task.editing = true">✏️ Edit</button>
-          <button v-else @click="saveTask(task)">💾 Save</button>
-          <button @click="removeTask(task._id)">🗑 Delete</button>
+          <button v-else @click="saveTask(task)">Save</button>
+          <button @click="removeTask(task._id)">Delete</button>
         </div>
       </li>
     </ul>
