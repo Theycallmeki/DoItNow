@@ -9,7 +9,7 @@
       </div>
 
       <div v-else-if="doneTasks.length === 0" class="empty-state">
-        <div class="empty-icon">🎯</div>
+        <div class="empty-icon">Target</div>
         <p>No completed tasks yet!</p>
         <small>Complete some tasks to see them here</small>
       </div>
